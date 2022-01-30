@@ -162,6 +162,9 @@ $hover-color: #a9b9fe;*/
   border: 1px solid #ffff;
   border-radius: 50%;
 }
+.banner__transit-item:active {
+  background-color: #ffff;
+}
 
 .header {
   display: -webkit-box;
@@ -445,7 +448,7 @@ $hover-color: #a9b9fe;*/
 
 .form {
   background-color: #ffff;
-  width: 770px;
+  max-width: 770px;
   padding: 60px 60px 68px;
   -webkit-box-shadow: 0 0 10px 1px #2c4058;
           box-shadow: 0 0 10px 1px #2c4058;
@@ -514,8 +517,9 @@ $hover-color: #a9b9fe;*/
 }
 
 .footer {
-  height: 44.53vh;
+  height: 53.46vh;
   background-image: url("../img/Footer bcg.jpg");
+  background-repeat: no-repeat;
   margin-top: -154px;
 }
 .footer__inner {
@@ -773,4 +777,7 @@ $hover-color: #a9b9fe;*/
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+.form {
+  max-width: 550px;
 }

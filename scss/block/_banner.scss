@@ -48,6 +48,9 @@
       margin: 40px 0;
       border: 1px solid $primary-color;
       border-radius: 50%;
+      &:active {
+        background-color: $primary-color;
+      }
     }
   }
 }

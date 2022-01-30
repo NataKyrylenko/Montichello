@@ -4,6 +4,27 @@ $(document).ready(function() {
   });    
 });
 
+const transitItems = document.querySelectorAll('.banner__transit-item[data-goto]');
+if (transitItems.length > 0) {
+  transitItems.forEach(transitItem =>{
+    transitItem.addEventListener('click', onTransitItemClick);
+  });
+
+  function onTransitItemClick(e) {
+    const transitItem = e.target;
+    if(transitItem.dataset.goto && document.querySelector(transitItem.dataset.goto)){
+      const gotoBlock = document.querySelector(transitItem.dataset.goto);
+      const gotoBlockValue = gotoBlock.getBoundingClientRect().top +pageYOffset - document.querySelector('banner');
+      
+      window.scrollTo({
+        top:gotoBlockValue,
+        behavior: "smooth"
+      });
+      e.preventDefault();
+
+    }
+  }
+}
 
 
 $(document).ready(function(){

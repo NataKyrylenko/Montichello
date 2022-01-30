@@ -1,14 +1,11 @@
 .form {
   background-color: $primary-color;
-  width: 770px;
+  max-width: 770px;
   padding: 60px 60px 68px;
   box-shadow: 0 0 10px 1px $dark;
   margin: 0 auto;
   position: relative;
   margin-top: -270px;
-  // top: 0;
-  // left: 0;
-  // transform: translate(54%, -60%);
   &__title {
     @include title;
     position: relative;
