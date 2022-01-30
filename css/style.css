@@ -101,7 +101,7 @@ $hover-color: #a9b9fe;*/
 }
 
 .banner {
-  height: 63vh;
+  height: 89vh;
   background-image: url("../img/banner-background.jpg");
   background-repeat: no-repeat;
   padding: 50px 0 30px;
@@ -152,7 +152,7 @@ $hover-color: #a9b9fe;*/
 }
 .banner__transit {
   position: absolute;
-  right: 5%;
+  right: 3%;
   top: 33%;
 }
 .banner__transit-item {
