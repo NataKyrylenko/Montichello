@@ -1,10 +1,14 @@
 .banner {
+  height: 46vw;
   background-image: url("../img/banner-background.jpg");
   background-repeat: no-repeat;
   padding: 50px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   &__content {
-    margin: 223px auto 240px;
     text-align: center;
     &-title {
       font-size: 80px;
@@ -35,8 +39,8 @@
   }
   &__transit {
     position: absolute;
-    right: 52px;
-    top: 255px;
+    right: 5%;
+    top: 33%;
     &-item {
       width: 10px;
       height: 10px;

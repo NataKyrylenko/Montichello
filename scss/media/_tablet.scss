@@ -74,6 +74,14 @@
       line-height: 40px;
     }
   }
+  .banner__content {
+    &-title {
+      font-size: 53px;
+    }
+    &-text {
+      font-size: 12px;
+    }
+  }
   .projects {
     padding: 0;
     &__first {
@@ -98,5 +106,9 @@
     &-second {
       padding: 0 5px 60px 70px;
     }
+  }
+  .gallery__container {
+    display: flex;
+    flex-direction: column;
   }
 }
