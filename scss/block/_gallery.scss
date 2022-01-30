@@ -1,0 +1,27 @@
+.gallery {
+  padding: 140px 0;
+  text-align: center;
+  &__title {
+    @include title;
+    margin-bottom: 89px;
+    position: relative;
+    color: $dark;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 1px;
+      background-color: $dark;
+      top: -30%;
+      left: 46%;
+    }
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}
+.photo-more_pic {
+  margin: 4px 0 4px 8px;
+}

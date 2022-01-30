@@ -1,0 +1,18 @@
+.footer {
+  height: 44.53vh;
+  background-image: url("../img/Footer bcg.jpg");
+  margin-top: -154px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 770px;
+    margin: 0 auto;
+    padding-top: 204px;
+  }
+  &__text {
+    @include btn-text;
+    font-weight: 400;
+    color: $primary-color;
+    margin-top: 41px;
+  }
+}

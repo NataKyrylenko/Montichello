@@ -1,0 +1,102 @@
+@media (max-width: $l) {
+  .menu {
+    margin: 0 0px 0 100px;
+    &__burger {
+      display: block;
+      margin-right: 20px;
+      width: 30px;
+      height: 20px;
+      position: relative;
+      z-index: 3;
+      &::before {
+        content: "";
+        background-color: $primary-color;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        top: 0;
+        transition: all 0.3s ease 0s;
+      }
+      &::after {
+        content: "";
+        background-color: $primary-color;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        bottom: 0;
+        transition: all 0.3s ease 0s;
+      }
+      & span {
+        position: absolute;
+        background-color: $primary-color;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+      }
+      &.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+      }
+      &.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+      }
+      &.active span {
+        transform: scale(0);
+      }
+    }
+    &__item {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      background-color: $bkg-color;
+      border-radius: 15px;
+      width: 37%;
+      height: 30%;
+      padding: 80px 25px 20px;
+      margin: 0 auto;
+      overflow: auto;
+      transition: all 0.3s ease 0s;
+      &.active {
+        top: 0;
+      }
+    }
+    &__list {
+      display: block;
+      text-align: left;
+    }
+    .header__link {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .projects {
+    padding: 0;
+    &__first {
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__second {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 80px;
+    }
+  }
+  .first__pic-item {
+    left: 0;
+  }
+  .second__pic-item {
+    right: 0;
+  }
+  .content {
+    padding: 100px 5px 5px 70px;
+    &-second {
+      padding: 0 5px 60px 70px;
+    }
+  }
+}

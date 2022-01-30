@@ -1,0 +1,49 @@
+.content__btn {
+  @include btn-text;
+  padding: 16px 41px;
+  border: 1px solid $dark;
+  color: $curtain-color;
+  &:hover {
+    background-color: $dark;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    transition: all 0.7s;
+  }
+}
+
+.priv_arrow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  top: 240px;
+  left: -60px;
+  border: 1px solid $primary-color;
+  padding: 13px;
+  color: $primary-color;
+}
+.next_arrow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  top: 240px;
+  right: -60px;
+  border: 1px solid $primary-color;
+  padding: 14px;
+  color: $primary-color;
+}
+.button {
+  @include text;
+  width: 140px;
+  padding: 9px 34px;
+  border: 1px solid $dark;
+  color: $curtain-color;
+  margin-left: 170px;
+  &:hover {
+    background-color: $dark;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    transition: all 0.7s;
+  }
+}

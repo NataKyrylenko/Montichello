@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 110px 0 140px;
+  &__burger {
+    display: none;
+  }
+  &__list {
+    display: flex;
+    &-li {
+      position: relative;
+      &:not(:last-of-type) {
+        margin-right: 70px;
+      }
+      &:hover + .header__link-item {
+        background-color: $primary-color;
+      }
+    }
+  }
+}
