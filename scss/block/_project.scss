@@ -1,5 +1,5 @@
 .projects {
-  padding: 100px 0 0;
+  padding: 150px 0 0;
   text-align: center;
   width: 100%;
   &__title {
@@ -13,14 +13,17 @@
       width: 100px;
       height: 1px;
       background-color: $dark;
-      top: -30%;
+      top: -60%;
       left: 46%;
     }
   }
-  &__first,
-  &__second {
+  &__first {
+    margin-bottom: 198px;
     display: flex;
-    margin-bottom: 140px;
+  }
+  &__second {
+    margin-bottom: 142px;
+    display: flex;
   }
 }
 .first__pic {
@@ -36,10 +39,10 @@
   }
 }
 .content {
-  padding: 150px 5px 5px 70px;
+  padding: 95px 5px 5px 66px;
   text-align: left;
   &-second {
-    padding: 100px 70px 5px 5px;
+    padding: 93px 50px 5px 0;
     text-align: left;
   }
   &__pretitle {
@@ -50,16 +53,17 @@
     @include title;
     font-weight: bold;
     color: $dark;
+    margin-bottom: 18px;
   }
   &__text {
     @include text;
     font-weight: 400;
     color: $dark;
-    margin-bottom: 41px;
+    margin-bottom: 49px;
     &-location {
       @include text-location;
       color: $curtain-color;
-      margin-top: 60px;
+      margin-top: 77px;
       &-marker {
         color: $dark;
         margin-right: 10px;

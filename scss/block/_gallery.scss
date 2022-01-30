@@ -1,9 +1,9 @@
 .gallery {
-  padding: 140px 0;
+  padding: 170px 0 157px;
   text-align: center;
   &__title {
     @include title;
-    margin-bottom: 89px;
+    margin-bottom: 83px;
     position: relative;
     color: $dark;
     &:before {
@@ -19,7 +19,7 @@
   &__container {
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 75px;
   }
 }
 .photo-more_pic {

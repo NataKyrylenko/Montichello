@@ -1,21 +1,21 @@
 .slider {
   background-image: url("../img/bkg-slider.jpg");
   background-repeat: no-repeat;
-  padding: 135px 0 143px;
+  padding: 162px 0 160px;
 
   &__title {
     @include title;
     text-align: center;
     color: $primary-color;
     position: relative;
-    margin-bottom: 89px;
+    margin-bottom: 73px;
     &:before {
       content: "";
       position: absolute;
       width: 100px;
       height: 1px;
       background-color: $primary-color;
-      top: -30%;
+      top: -60%;
       left: 46%;
     }
   }
@@ -24,14 +24,14 @@
   position: relative;
 
   &__item {
-    margin-right: 20px;
-    width: 33%;
+    margin: 20px;
+
     &_pic {
       width: 100%;
     }
   }
   &__content {
-    padding: 30px 20px;
+    padding: 35px 20px;
     background-color: $primary-color;
     &-title {
       @include pretitle;
@@ -70,12 +70,12 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: -60px;
+  bottom: -9%;
   & li {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 28px;
     & button {
       width: 10px;
       height: 10px;

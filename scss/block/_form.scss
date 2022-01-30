@@ -1,11 +1,11 @@
 .form {
   background-color: $primary-color;
   max-width: 770px;
-  padding: 60px 60px 68px;
+  padding: 88px 60px 45px;
   box-shadow: 0 0 10px 1px $dark;
   margin: 0 auto;
   position: relative;
-  margin-top: -270px;
+  margin-top: -300px;
   &__title {
     @include title;
     position: relative;
@@ -18,13 +18,14 @@
       width: 100px;
       height: 1px;
       background-color: $dark;
-      top: -30%;
-      left: 46%;
+      top: -60%;
+      left: 42%;
     }
   }
   &__inner {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   &__body {
     width: 49%;
@@ -34,7 +35,7 @@
     &_input {
       @include text;
       border-bottom: 1px solid grey;
-      margin-bottom: 33px;
+      margin-bottom: 38px;
       &:hover {
         border-bottom: 1px solid #4b5562;
       }
@@ -45,7 +46,7 @@
   &_elem {
     @include text;
     color: $curtain-color;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     &-marker {
       padding-right: 10px;
       color: $bkg-color;
