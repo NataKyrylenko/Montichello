@@ -824,10 +824,12 @@ $hover-color: #a9b9fe;*/
 }
 @media screen and (max-width: 425px) {
   .menu__item {
-    height: 30%;
+    height: 36%;
+    padding: 10px;
+    width: 67%;
   }
   .menu__item.active {
-    top: 8%;
+    top: 25%;
   }
 
   .projects {
