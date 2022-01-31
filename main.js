@@ -4,7 +4,7 @@ $(document).ready(function() {
   });    
 });
 
-const transitItems = document.querySelectorAll('.banner__transit-item[data-goto]');
+const transitItems = document.querySelectorAll('.banner__transit-item[data-goto], .header__link[data-goto], .banner__scroll[data-goto]');
 if (transitItems.length > 0) {
   transitItems.forEach(transitItem =>{
     transitItem.addEventListener('click', onTransitItemClick);
@@ -32,8 +32,8 @@ $(document).ready(function(){
     infinite:true,  
     arrows: true,
     dots:true,
-    //autoplay:true,
-    //autoplaySpeed: 3000,
+    autoplay:true,
+    autoplaySpeed: 3000,
     slidesToShow: 3, 
     slidesToScroll: 1,
     prevArrow: '<span class="priv_arrow"><i class="fas fa-angle-left"></i></span>',

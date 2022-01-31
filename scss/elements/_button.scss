@@ -21,6 +21,7 @@
   border: 1px solid $primary-color;
   padding: 13px;
   color: $primary-color;
+  cursor: pointer;
 }
 .next_arrow {
   width: 40px;
@@ -32,6 +33,7 @@
   border: 1px solid $primary-color;
   padding: 14px;
   color: $primary-color;
+  cursor: pointer;
 }
 .button {
   @include text;
