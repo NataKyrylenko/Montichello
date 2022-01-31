@@ -33,7 +33,7 @@ $(document).ready(function(){
     arrows: true,
     dots:true,
     autoplay:true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     slidesToShow: 3, 
     slidesToScroll: 1,
     prevArrow: '<span class="priv_arrow"><i class="fas fa-angle-left"></i></span>',
@@ -50,7 +50,8 @@ $(document).ready(function(){
         breakpoint: 715,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows:false
         }
       }
     ],

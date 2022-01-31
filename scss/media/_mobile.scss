@@ -1,0 +1,80 @@
+@media screen and (max-width: $md) {
+  .menu__item {
+    height: 30%;
+    &.active {
+      top: 8%;
+    }
+  }
+  .projects {
+    padding: 35px;
+    &__title {
+      margin-bottom: 60px;
+    }
+    &__first {
+      margin-bottom: 25px;
+    }
+    &__second {
+      margin-bottom: 20px;
+    }
+  }
+  .first__pic {
+    &-item {
+      display: none;
+    }
+    &-img {
+      width: 78vw;
+    }
+  }
+  .content {
+    padding: 25px;
+    &-second {
+      padding: 25px;
+    }
+  }
+  .second__pic {
+    &-item {
+      display: none;
+    }
+    &-img {
+      width: 78vw;
+    }
+  }
+  .gallery {
+    padding: 30px 0 70px;
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__photo {
+      width: 88vw;
+      &-more {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .photo-more_pic:hover {
+    transform: scale(1.1);
+  }
+
+  .form {
+    padding: 0 6px 10px;
+    max-width: 300px;
+    margin-top: -360px;
+    &__title {
+      font-size: $size-var;
+      line-height: 40px;
+      margin-bottom: 25px;
+    }
+    &__body {
+      margin-left: 0;
+    }
+  }
+  .button {
+    margin-left: 0;
+  }
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

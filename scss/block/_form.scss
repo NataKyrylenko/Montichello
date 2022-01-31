@@ -1,5 +1,7 @@
 .form {
-  background-color: $primary-color;
+  background-image: url("../img/bcg-form.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   max-width: 770px;
   padding: 88px 60px 45px;
   box-shadow: 0 0 10px 1px $dark;
@@ -34,10 +36,10 @@
     margin-left: 54px;
     &_input {
       @include text;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid $dark;
       margin-bottom: 38px;
       &:hover {
-        border-bottom: 1px solid #4b5562;
+        border-bottom: 1px solid $light;
       }
     }
   }

@@ -53,10 +53,10 @@
       position: fixed;
       top: -100%;
       left: 0;
-      background-color: $bkg-color;
+      background-color: $dark;
       border-radius: 15px;
-      width: 37%;
-      height: 45%;
+      width: 45%;
+      height: 40%;
       padding: 80px 25px 20px;
       margin: 0 auto;
       overflow: auto;
@@ -70,16 +70,17 @@
       text-align: left;
     }
     .header__link {
-      font-size: 30px;
+      font-size: $size-var;
       line-height: 40px;
     }
   }
   .banner__content {
     &-title {
-      font-size: 53px;
+      font-size: $size-head;
+      line-height: 60px;
     }
     &-text {
-      font-size: 12px;
+      font-size: $little-size;
     }
   }
   .projects {

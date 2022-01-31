@@ -37,6 +37,7 @@
 }
 .button {
   @include text;
+  background-color: inherit;
   width: 140px;
   padding: 9px 34px;
   border: 1px solid $dark;
