@@ -97,7 +97,7 @@ $hover-color: #a9b9fe;*/
 }
 
 .map {
-  height: 56.82vh;
+  height: 81vh;
 }
 
 .banner {
@@ -529,7 +529,7 @@ $hover-color: #a9b9fe;*/
 }
 
 .footer {
-  height: 53.46vh;
+  height: 62vh;
   background-image: url("../img/Footer bcg.jpg");
   background-repeat: no-repeat;
   margin-top: -154px;
