@@ -838,6 +838,9 @@ $hover-color: #a9b9fe;*/
   .projects__title {
     margin-bottom: 60px;
   }
+  .projects__title::before {
+    display: none;
+  }
   .projects__first {
     margin-bottom: 25px;
   }

@@ -11,6 +11,9 @@
     padding: 35px;
     &__title {
       margin-bottom: 60px;
+      &::before {
+        display: none;
+      }
     }
     &__first {
       margin-bottom: 25px;
